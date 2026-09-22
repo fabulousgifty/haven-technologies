@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" fill="none">
+  <defs>
+    <linearGradient id="havenPhoneGrad" x1="50" y1="12" x2="50" y2="76" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00A2FF" />
+      <stop offset="45%" stop-color="#006DE8" />
+      <stop offset="100%" stop-color="#0046CA" />
+    </linearGradient>
+    <filter id="havenShadow" x="-10%" y="-10%" width="120%" height="120%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#0B1F3A" flood-opacity="0.2" />
+    </filter>
+  </defs>
+
+  <!-- Phone Body with Cart Transformation -->
+  <g filter="url(#havenShadow)">
+    <!-- Main Smartphone Silhouette -->
+    <!-- Upper Phone Section (Above cart slit) -->
+    <path
+      d="M38 22C38 16.4772 42.4772 12 48 12H64C69.5228 12 74 16.4772 74 22V36.5H38V22Z"
+      fill="url(#havenPhoneGrad)"
+    />
+
+    <!-- Lower Phone Section (Cart Body & Base) -->
+    <path
+      d="M38 41H74V63C74 65.5 72 67.5 69.5 67.5H68C68 64.5 65.5 62 62.5 62C59.5 62 57 64.5 57 67.5H53C53 64.5 50.5 62 47.5 62C44.5 62 42 64.5 42 67.5H41C39.3431 67.5 38 66.1569 38 64.5V41Z"
+      fill="url(#havenPhoneGrad)"
+    />
+
+    <!-- Top Bezel Cutouts -->
+    <!-- Camera Sensor -->
+    <circle cx="48" cy="18.5" r="1.6" fill="#FFFFFF" opacity="0.95" />
+    <!-- Speaker Earpiece Slit -->
+    <rect x="52.5" y="17.5" width="8.5" height="2.2" rx="1.1" fill="#FFFFFF" opacity="0.95" />
+
+    <!-- Cart Handle on Left -->
+    <!-- Blue Handle Grip -->
+    <rect x="22" y="38" width="9.5" height="3.8" rx="1.9" fill="url(#havenPhoneGrad)" />
+    <!-- White Connecting Bar -->
+    <path
+      d="M30 40H38"
+      stroke="#FFFFFF"
+      stroke-width="3.2"
+      stroke-linecap="round"
+    />
+
+    <!-- White Cart Basket Frame (U-Contour) -->
+    <path
+      d="M38 40H44L47.5 54.5C48 56.5 49.5 57.8 51.5 57.8H67C69 57.8 70.8 56.2 71.2 54.2L74 40"
+      stroke="#FFFFFF"
+      stroke-width="3.6"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+    />
+
+    <!-- Cart Wheels -->
+    <!-- Left Wheel -->
+    <circle cx="47.5" cy="67.5" r="5" fill="url(#havenPhoneGrad)" />
+    <circle cx="47.5" cy="67.5" r="2.2" fill="#FFFFFF" />
+
+    <!-- Right Wheel -->
+    <circle cx="62.5" cy="67.5" r="5" fill="url(#havenPhoneGrad)" />
+    <circle cx="62.5" cy="67.5" r="2.2" fill="#FFFFFF" />
+  </g>
+</svg>

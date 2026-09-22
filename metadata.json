@@ -1,0 +1,6 @@
+{
+  "name": "Haven Technologies",
+  "description": "Discover phones, gadgets, accessories, home appliances and technology solutions with expert guidance from Haven Technologies. Over 500+ clients served with a 95% satisfaction rate.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
